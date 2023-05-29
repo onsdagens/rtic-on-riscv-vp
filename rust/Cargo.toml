@@ -1,0 +1,6 @@
+[workspace]
+members = ["common", "hello-world"]
+
+[workspace.dependencies]
+riscv = "0.10"
+riscv-rt = "0.11"
