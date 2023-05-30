@@ -1,6 +1,7 @@
 [workspace]
-members = ["common", "hello-world"]
+members = ["common", "hello-world", "hello-rtic"]
 
 [workspace.dependencies]
 riscv = "0.10"
 riscv-rt = "0.11"
+rtic = { path = "../submodules/rtic/rtic" }
