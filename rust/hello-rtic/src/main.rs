@@ -24,10 +24,11 @@ mod app {
 
     #[idle]
     fn idle(_: idle::Context) -> ! {
-        // interrupts are enabled again; the `SoftLow` handler runs at this point
-        sprintln!("idle");
-        loop {
-            continue;
+        //interrupts are enabled again; the `SoftLow` handler runs at this point
+       sprintln!("idle");
+       loop {
+           continue;
         }
     }
+    
 }

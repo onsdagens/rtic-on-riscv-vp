@@ -10,10 +10,10 @@ heapless = "0.7.16"
 riscv-rt = { workspace = true }
 riscv = { workspace = true }
 common = { path = "../common" }
-rtic = { path = "../../submodules/rtic/rtic", features = [
+rtic = { path = "../../rtic/rtic", features = [
     "riscv-e310x-backend",
 ] }
-riscv-slic = { git = "https://github.com/romancardenas/riscv-slic", branch = "dev-plic", features = [
+riscv-slic = { git = "https://github.com/onsdagens/riscv-slic/", branch="dev-plic" , features = [
     "swi-clint",
     "exti-plic",
 ] }
